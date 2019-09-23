@@ -1,1 +1,47 @@
-/* CSS code  */
+body{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6;
+}
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    padding: 8x;
+}
+
+.navagation{
+    background-color: #10243b;
+    margin: 0px;
+    padding: 0px
+    
+}
+#bluebox{ 
+    background-color: #005983;
+    border: 10px;
+    display: inline-block;
+  
+
+}
+#split{
+    margin: 0px 170px 0px 0px;
+    display: inline;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left
+
+    
+}
+#half{
+    display: inline;
+    color: #a3dde8;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px
+}
+#logo{
+    width: 60px
+}
