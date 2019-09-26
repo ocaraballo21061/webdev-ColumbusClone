@@ -51,6 +51,51 @@ font-size: 14px;
 #herosection{
     background-image: url(images/science.png);
     height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Explore CCHS */
+
+#explorecchs{
+    height: 500px;
+    width: 100vw;
+    background-color: #10243b;
+}
+#exploreheading{
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: .05rem;
+    height: 100px;
+    width: 100vw; 
+    text-align: center
+}
+#explorebody{
+    height: 400px;
+    width: 100vw;
+    background-color: #10243b
+}
+.imagebox{
+    height: 500px;
+    width: 24.5vw;
+    display: inline-block;
+    background-size: cover;
+    
+}
+#patriot{
+   background-image: url(images/patriots\ plaza.jpg);
+}
+#college{
+background-image: url(images/college.png)
+}
+#ccnn{
+    background-image: url(images/ccnn.jpg)
+}
+#live{
+    background-image: url(images/ccnn\ live.png)
+}
+.left{
+    float: left;
+}
+
