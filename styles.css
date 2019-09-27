@@ -54,11 +54,12 @@ ul{
     margin: 0px;
     padding: 0px;
     height: 64px;
-    width: 100vw;
+    width: 100%;
     
 }
 .bluebox{ 
     background-color: #005983;
+
   
 }
 #blueboxtext{
@@ -99,8 +100,8 @@ text-shadow: rgb(51, 51, 51) 0px 2px 3px;
 }
 #herosection{
     background-image: url(images/science.png);
-    height: 100vh;
-    width: 100vw;
+    height: 874px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,7 +110,7 @@ text-shadow: rgb(51, 51, 51) 0px 2px 3px;
 
 #explorecchs{
     height: 500px;
-    width: 100vw;
+    width: 100%;
     background-color: #10243b;
 }
 #exploreheading{
@@ -117,19 +118,21 @@ text-shadow: rgb(51, 51, 51) 0px 2px 3px;
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: .05rem;
     height: 100px;
-    width: 100vw; 
+    width: 100%; 
     text-align: center
 }
 #explorebody{
-    height: 400px;
-    width: 100vw;
+    height: 420px;
+    width: 100%;
     background-color: #10243b
 }
 .imagebox{
-    height: 500px;
-    width: 24.5vw;
+    height: 400px;
+    width: 24.5%;
     display: inline-block;
     background-size: cover;
+    background-position: center;
+
     
 }
 #patriot{
@@ -151,3 +154,32 @@ background-image: url(images/college.png)
     float: right;
 }
 
+/* AT A GLANCE */
+
+#ataglance{
+    width: 100%;
+    background-color: white;
+    float: left;
+    color: rgb(0, 52, 76);
+    text-align: center
+}
+.glanceimages{
+    margin:0px;
+    width: 288px;
+    height: 288px;
+    display: inline-block;
+    background-size: cover;
+
+}
+#College{
+    background-image: url(images/carosel\ graduation.jpg)
+}
+#Money{
+    background-image: url(images/carosel\ money.jpg)
+}
+#teacher{
+    background-image: url(images/carosel\ teaching.jpg)
+}
+#book{
+    background-image: url(images/book.jpg)
+}
