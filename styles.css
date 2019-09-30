@@ -171,15 +171,7 @@ background-image: url(images/college.png)
     background-size: cover;
 
 }
-#College{
-    background-image: url(images/carosel\ graduation.jpg)
-}
-#Money{
-    background-image: url(images/carosel\ money.jpg)
-}
-#teacher{
-    background-image: url(images/carosel\ teaching.jpg)
-}
-#book{
-    background-image: url(images/book.jpg)
+.imagesize{
+    width: 288px;
+    
 }
