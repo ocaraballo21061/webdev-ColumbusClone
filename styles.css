@@ -164,14 +164,33 @@ background-image: url(images/college.png)
     text-align: center
 }
 .glanceimages{
-    margin:0px;
+    margin-left: 145px;
     width: 288px;
     height: 288px;
     display: inline-block;
     background-size: cover;
+    float: left;
 
 }
 .imagesize{
     width: 288px;
     
+}
+#glancetitle{
+    font-size: 1.875em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ca0d33;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.glance{
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.minibox{
+    width: 11px;
+    height: 11px;
+    background-color: #10243b
 }
