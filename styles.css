@@ -189,8 +189,122 @@ background-image: url(images/college.png)
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-.minibox{
-    width: 11px;
-    height: 11px;
-    background-color: #10243b
+
+
+#infoboxes{
+    width: 1200px;
+    height: 135px;
+    background-color: #10243b;
+    background-image: url(images/bg.png);
+    float: left;
+  margin-top: 200px;
+  margin-left: 350px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+
+}
+#minibox{
+width: 11px;
+height: 11px;
+background-color: white;
+display: inline-block;
+margin: 6px;
+}
+#footer{
+    margin-top: 75px;
+    width: 100%;
+    height: 268px;
+    background-color: white;
+    background-image: url(images/bg3.png);
+    border: 1px solid;
+    border-bottom-color: rgb(223, 210, 176);
+    border-top-color: rgb(223, 210, 176);
+    float: left;
+}
+p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.collegelogo{
+width: 18.5%;
+height: 130px;
+display: inline-block;
+background-repeat: no-repeat;
+}
+#mit{
+    background-image: url(images/mit.png)
+}
+#um{
+    background-image: url(images/um.png);
+   margin-left: 95px;
+}
+#carolina{
+    background-image: url(images/northcarolina.png)
+}
+#yale{
+    background-image: url(images/yale.png)
+}
+#wake{
+    background-image: url(images/wakeforest.png)
+}
+#footerbottom{
+    width: 100%;
+    height: 50px;
+    background-color: #10243b;
+    background-image: url(images/bg.png);
+    float: left;
+    color: #a3dde8;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 25px;
+    letter-spacing: .8px;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-shadow: rgb(51, 51, 51);
+}
+#connect{
+    padding-left: 200px;
+}
+#facebook{
+    padding-left: 100px;
+}
+#media{
+    padding: 10px
+}
+#finalmessage{
+    width: 100%;
+    height: 400px;
+    background-color: #333333;
+    margin: 0px;
+    float: left;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: .7px;
+    text-align: center;
+}
+h4{
+    padding-left: 60px
+}
+p{
+    width: 60%;
+    height: 100px;
+    padding-top: 80px;
+    padding-left: 200px;
+    color: gray;
+    font-size: 15px;
+    text-align: left;
+    display: inline-block;
+text-transform: initial;
+float: left;
+}
+#break{
+   line-height: 20px;
+   float: left;
 }
