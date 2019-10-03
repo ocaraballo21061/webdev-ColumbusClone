@@ -104,6 +104,26 @@ text-shadow: rgb(51, 51, 51) 0px 2px 3px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    display: inline-block
+}
+#title{
+    display: inline-block;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+    display: inline-block;
+}
+#c{
+padding-top: 100px;
+    padding-left: 30px;
+    display: inline-block;
+    
+}
+span{
+    font-size: 18px;
 }
 
 /* Explore CCHS */
@@ -262,7 +282,7 @@ background-repeat: no-repeat;
     font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    padding-top: 25px;
+    padding-top: 2px;
     letter-spacing: .8px;
     font-size: 16px;
     line-height: 25.6px;
@@ -279,7 +299,7 @@ background-repeat: no-repeat;
 }
 #finalmessage{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: #333333;
     margin: 0px;
     float: left;
@@ -287,24 +307,17 @@ background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     letter-spacing: .7px;
-    text-align: center;
+    text-align: center
 }
 h4{
-    padding-left: 60px
+    padding-left: 40px
 }
-p{
-    width: 60%;
-    height: 100px;
-    padding-top: 80px;
-    padding-left: 200px;
+#para{
     color: gray;
-    font-size: 15px;
     text-align: left;
+    width: 60%;
+    height: 60px;
     display: inline-block;
-text-transform: initial;
-float: left;
-}
-#break{
-   line-height: 20px;
-   float: left;
+    text-transform: initial;
+    font-size: 13px;
 }
